@@ -6,10 +6,10 @@ import re
 with open("mapping.json", "r") as f:
     _mapping = json.load(f)
 
-_code = """def Banana():
-    Spoon("Apple Pear")
+_code = """def Apple(Banana):
+    Spoon("Pear", Banana)
 
-Banana()"""
+Apple("Melon")"""
 
 for obf in sorted(_mapping.values(), key=lambda x: -len(x)):
     orig = [k for k, v in _mapping.items() if v == obf][0]

@@ -1,6 +1,7 @@
 {
-  "hello": "Banana",
-  "Hallo": "Apple",
-  "Welt": "Pear",
-  "print": "Spoon"
+  "name": "Banana",
+  "greet": "Apple",
+  "Hello": "Pear",
+  "print": "Spoon",
+  "world": "Melon"
 }
