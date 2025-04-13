@@ -110,13 +110,6 @@ This isn’t intended to provide bulletproof security. It’s great for:
 - Obscuring logic in open source projects
 - Teaching about code transformation and execution
 - Light code protection
-
-Want stronger protection? Ask about:
-- String obfuscation
-- AST-level rewriting
-- Control flow flattening
-- Mapping encryption
-
 ---
 
 ## License
